@@ -36,6 +36,7 @@ export const WaitlistFormCurved = () => {
       // Clear form
       setFullName('');
       setEmail('');
+      window.scrollTo({ top: 0, left: 0});
     } catch (error: any) {
       console.error('Error submitting to waitlist:', error);
       toast({
